@@ -1,0 +1,6 @@
+# No third-party dependencies: the judge audit runs on the Python
+# standard library only (urllib for the Pollinations client).
+#
+# Optional, only for the Gemini provider (llm_client.GeminiClient),
+# so the user can swap in his own API key later:
+#   langchain-google-genai
