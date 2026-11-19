@@ -88,7 +88,7 @@ class GeminiClient(BaseLLMClient):
 
     def __init__(self, model: str = "gemini-2.0-flash",
                  api_key: str | None = None, timeout: int = 120) -> None:
-        api_key = api_key or os.environ.get("GOOGLE_API_KEY")
+        api_key = api_key or os.environ.get("AIzaSyD8jjPGAMiqusE5GY7czUcaB1TvA-Ci6OQ")
         if not api_key:
             raise LLMError(
                 "Gemini provider needs a GOOGLE_API_KEY "
